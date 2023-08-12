@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct My_Salary_2App: App {
+    @StateObject var salarydata : SalaryViewModel = SalaryViewModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                HomeView()
+            }
+            
+            .environmentObject(salarydata)
         }
     }
 }

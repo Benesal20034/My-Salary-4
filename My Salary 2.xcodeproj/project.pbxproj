@@ -7,16 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A8015FA2A87071D00DCAA13 /* CustomTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8015F92A87071D00DCAA13 /* CustomTextFieldStyle.swift */; };
+		1A8015FE2A870CE600DCAA13 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8015FD2A870CE600DCAA13 /* HomeView.swift */; };
+		1A8016002A870DDC00DCAA13 /* CalculationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8015FF2A870DDC00DCAA13 /* CalculationView.swift */; };
+		1A8016022A870DF200DCAA13 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8016012A870DF200DCAA13 /* AboutView.swift */; };
+		1A8016042A870EF300DCAA13 /* SalaryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8016032A870EF300DCAA13 /* SalaryModel.swift */; };
+		1A8016062A87180200DCAA13 /* SalaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8016052A87180200DCAA13 /* SalaryViewModel.swift */; };
+		1A8016082A87198B00DCAA13 /* TextFieldsAndButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8016072A87198B00DCAA13 /* TextFieldsAndButtonView.swift */; };
+		1A80160A2A8730AE00DCAA13 /* SalaryResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8016092A8730AE00DCAA13 /* SalaryResultView.swift */; };
+		1A80160C2A8843CE00DCAA13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A80160B2A8843CE00DCAA13 /* LaunchScreen.storyboard */; };
 		1AF85B952A86EE310025E0C0 /* My_Salary_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF85B942A86EE310025E0C0 /* My_Salary_2App.swift */; };
-		1AF85B972A86EE310025E0C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF85B962A86EE310025E0C0 /* ContentView.swift */; };
 		1AF85B992A86EE340025E0C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AF85B982A86EE340025E0C0 /* Assets.xcassets */; };
 		1AF85B9C2A86EE340025E0C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AF85B9B2A86EE340025E0C0 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A8015F92A87071D00DCAA13 /* CustomTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldStyle.swift; sourceTree = "<group>"; };
+		1A8015FD2A870CE600DCAA13 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1A8015FF2A870DDC00DCAA13 /* CalculationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationView.swift; sourceTree = "<group>"; };
+		1A8016012A870DF200DCAA13 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		1A8016032A870EF300DCAA13 /* SalaryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalaryModel.swift; sourceTree = "<group>"; };
+		1A8016052A87180200DCAA13 /* SalaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalaryViewModel.swift; sourceTree = "<group>"; };
+		1A8016072A87198B00DCAA13 /* TextFieldsAndButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldsAndButtonView.swift; sourceTree = "<group>"; };
+		1A8016092A8730AE00DCAA13 /* SalaryResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalaryResultView.swift; sourceTree = "<group>"; };
+		1A80160B2A8843CE00DCAA13 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AF85B912A86EE310025E0C0 /* My Salary 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Salary 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AF85B942A86EE310025E0C0 /* My_Salary_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Salary_2App.swift; sourceTree = "<group>"; };
-		1AF85B962A86EE310025E0C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1AF85B982A86EE340025E0C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AF85B9B2A86EE340025E0C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -32,6 +48,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A8015F82A8706EE00DCAA13 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1A8015F92A87071D00DCAA13 /* CustomTextFieldStyle.swift */,
+				1A8016032A870EF300DCAA13 /* SalaryModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1A8015FB2A870C0300DCAA13 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1A8015FD2A870CE600DCAA13 /* HomeView.swift */,
+				1A8015FF2A870DDC00DCAA13 /* CalculationView.swift */,
+				1A8016072A87198B00DCAA13 /* TextFieldsAndButtonView.swift */,
+				1A8016092A8730AE00DCAA13 /* SalaryResultView.swift */,
+				1A8016012A870DF200DCAA13 /* AboutView.swift */,
+				1A80160B2A8843CE00DCAA13 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1A8015FC2A870C2400DCAA13 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1A8016052A87180200DCAA13 /* SalaryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		1AF85B882A86EE300025E0C0 = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +98,9 @@
 			isa = PBXGroup;
 			children = (
 				1AF85B942A86EE310025E0C0 /* My_Salary_2App.swift */,
-				1AF85B962A86EE310025E0C0 /* ContentView.swift */,
+				1A8015FC2A870C2400DCAA13 /* ViewModel */,
+				1A8015F82A8706EE00DCAA13 /* Models */,
+				1A8015FB2A870C0300DCAA13 /* Views */,
 				1AF85B982A86EE340025E0C0 /* Assets.xcassets */,
 				1AF85B9A2A86EE340025E0C0 /* Preview Content */,
 			);
@@ -104,11 +152,12 @@
 			};
 			buildConfigurationList = 1AF85B8C2A86EE300025E0C0 /* Build configuration list for PBXProject "My Salary 2" */;
 			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = en;
+			developmentRegion = ar;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 1AF85B882A86EE300025E0C0;
 			productRefGroup = 1AF85B922A86EE310025E0C0 /* Products */;
@@ -125,6 +174,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A80160C2A8843CE00DCAA13 /* LaunchScreen.storyboard in Resources */,
 				1AF85B9C2A86EE340025E0C0 /* Preview Assets.xcassets in Resources */,
 				1AF85B992A86EE340025E0C0 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +187,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AF85B972A86EE310025E0C0 /* ContentView.swift in Sources */,
+				1A8016062A87180200DCAA13 /* SalaryViewModel.swift in Sources */,
+				1A8015FE2A870CE600DCAA13 /* HomeView.swift in Sources */,
 				1AF85B952A86EE310025E0C0 /* My_Salary_2App.swift in Sources */,
+				1A8016002A870DDC00DCAA13 /* CalculationView.swift in Sources */,
+				1A8016022A870DF200DCAA13 /* AboutView.swift in Sources */,
+				1A8016042A870EF300DCAA13 /* SalaryModel.swift in Sources */,
+				1A8015FA2A87071D00DCAA13 /* CustomTextFieldStyle.swift in Sources */,
+				1A8016082A87198B00DCAA13 /* TextFieldsAndButtonView.swift in Sources */,
+				1A80160A2A8730AE00DCAA13 /* SalaryResultView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +327,14 @@
 				DEVELOPMENT_TEAM = XJ2L4S7578;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "My Salary";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +359,14 @@
 				DEVELOPMENT_TEAM = XJ2L4S7578;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "My Salary";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
