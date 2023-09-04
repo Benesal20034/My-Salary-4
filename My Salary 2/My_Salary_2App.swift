@@ -16,6 +16,7 @@ struct My_Salary_2App: App {
                 HomeView()
             }
             
+            
             .environmentObject(salarydata)
         }
     }
